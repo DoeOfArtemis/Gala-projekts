@@ -1,0 +1,51 @@
+.header {
+    height: 20vh;
+    width: 100%;
+    background-color:rgb(167, 165, 162);
+    text-align: center;
+}
+
+#colorDisplay {
+    font-size: 120%;
+}
+
+.options {
+    height: 5vh;
+    width: 100%;
+    background: white;
+    text-align: center;
+}
+
+button {
+    text-transform: uppercase;
+    border:none;
+    height:100%;
+    background:none;
+    outline:none;
+    font-weight:700;
+}
+
+button:hover {
+    color: darkslategray;
+}
+
+#message {
+    display: inline-block;
+    width: 25%;
+}
+
+.container {
+    height: 40vh;
+    width: 73.5vw;
+    background-color:rgb(54, 54, 54);
+
+}
+
+.circle {
+    background-color:white;
+    width:15vw;
+    height:30vh;
+    border-radius: 100%;
+    margin-right: 5px;
+    float:right;
+}

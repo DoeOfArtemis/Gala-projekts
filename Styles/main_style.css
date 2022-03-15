@@ -1,0 +1,75 @@
+html,body{
+    margin:0;
+}
+
+.navbar {
+    min-height: 2vh;
+    width: 100vw;
+    background:  white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed; /* Ensures the header stays at the top of the page and is visible when scrolling */
+    z-index: 1; /* Ensures that .navbar covers .maincontent */
+    text-align: center; 
+}
+
+.navbar a {
+    width: 25%;
+    color: black;
+    font-weight: 400; 
+    text-decoration: none;
+    font-size: 140%;
+    padding: 0.5vh;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+.maincontent {
+    min-height: 60vh;
+    background: white;
+    color: rgb(78, 76, 76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom:10vh; 
+    position: relative;
+    z-index: 0; /* Ensures that .maincontent doesn't cover .navbar  */
+}
+
+.container {
+    padding: 10vh;
+}
+
+p {
+    font-size: 110%;
+    margin-top: 0;
+}
+
+.emphasized {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+hr {
+    height:3vh;
+    border:0;
+    box-shadow: inset 0 12px 12px -10px rgba(0,0,0,0.5);
+    margin-bottom: 0;
+}
+
+.footer {
+    min-height: 1vh;
+    background: rgb(78, 76, 76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color:  rgb(199, 202, 199);
+    position: relative; /* Ensures the footer is always at the bottom of the page */
+    bottom:0;
+    left:0;
+    right:0;
+}
